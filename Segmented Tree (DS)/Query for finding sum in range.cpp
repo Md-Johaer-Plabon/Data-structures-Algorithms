@@ -4,6 +4,7 @@ using namespace std;
 int tree[4*sz+5],a[]={2,3,1,4,6};
 int l=1,r=3,summ=0;
 
+// Sum in [l,r] range:
 int query(int at,int left,int right){
 
   //If you can also use this:
