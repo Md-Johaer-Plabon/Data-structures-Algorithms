@@ -7,8 +7,9 @@ int l=0,r=4,summ=0;
 void query(int at,int left,int right)
 {
 	//if(r<left||right<l)return 0;
-	 if(l<=left&&right<=r)
-    summ=max(summ,a[left]);
+	 if(l<=left&&right<=r)//[l,r] range
+    summ=max(summ,a[left]);//Finding maximum value
+	
      if(left==right)return;
    int mid =(left+right)/2;
    query(2*at,left,mid);
