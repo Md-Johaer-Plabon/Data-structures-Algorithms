@@ -3,8 +3,8 @@ using namespace std;
 #define sz 5
 int tree[4*sz+5],a[]={2,3,1,4,6};
 
-//We have to memorize that, we should initialize at least
-  "4*size" memories in tree array.
+/*We have to memorize that, we should initialize at least
+  "4*size" memories in tree array.*/
  
 void build(int at, int left ,int right){
 	if(left==right){
