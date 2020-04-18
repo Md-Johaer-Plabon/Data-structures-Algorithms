@@ -14,7 +14,7 @@ void build(int at, int left ,int right){
 	int mid=(left+right)/2;
 
 	build(2*at,left,mid);//Left side of root
-	build(2*at+1,mid+1,right);//Right sideo of root
+	build(2*at+1,mid+1,right);//Right side of root
 
         //Storing sum of childs to their parent node
 
